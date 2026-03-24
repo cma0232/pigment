@@ -20,9 +20,9 @@ export default function App() {
       <header className="app-header">
         <h1>Pigment</h1>
         <p>
-          {!loaded && '上传你的画，分析颜色'}
-          {loaded && mode === 'pick' && '将鼠标移到画上，查看颜料匹配'}
-          {loaded && mode === 'flow' && '移动鼠标扰动粒子流'}
+          {!loaded && 'Upload a painting to analyze its colors'}
+          {loaded && mode === 'pick' && 'Hover over the painting to see pigment matches'}
+          {loaded && mode === 'flow' && 'Move the mouse to disturb the particle flow'}
         </p>
         {loaded && (
           <button

@@ -47,7 +47,7 @@ export default function PigmentPanel({ color }) {
         .attr('x', 22).attr('y', 16)
         .attr('fill', '#e0e0e0')
         .attr('font-size', '12px')
-        .text(p.zh)
+        .text(p.en)
 
       // background track
       g.append('rect')
@@ -79,7 +79,7 @@ export default function PigmentPanel({ color }) {
   if (!color) {
     return (
       <div className="panel empty-panel">
-        <p className="panel-hint">将鼠标移到画上</p>
+        <p className="panel-hint">Hover over the painting</p>
       </div>
     )
   }
@@ -98,7 +98,7 @@ export default function PigmentPanel({ color }) {
       <div className="divider" />
 
       {/* closest pigments */}
-      <p className="section-label">最接近的颜料</p>
+      <p className="section-label">Closest pigments</p>
       <div ref={chartRef} className="chart-container" />
 
       {/* pigment name list */}
@@ -108,7 +108,6 @@ export default function PigmentPanel({ color }) {
             <span className="rank">#{i + 1}</span>
             <div className="pigment-swatch" style={{ background: p.hex }} />
             <div className="pigment-names">
-              <span className="pigment-zh">{p.zh}</span>
               <span className="pigment-en">{p.en}</span>
             </div>
           </div>

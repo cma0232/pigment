@@ -1,15 +1,15 @@
 // ── 10 basic painter pigments ──────────────────────────────────────────────
 export const PIGMENTS = [
-  { id: 'titanium_white', zh: '钛白',    en: 'Titanium White', hex: '#F2EFE0' },
-  { id: 'ivory_black',    zh: '象牙黑',  en: 'Ivory Black',    hex: '#2A2A28' },
-  { id: 'cadmium_yellow', zh: '镉黄',    en: 'Cadmium Yellow', hex: '#F0C020' },
-  { id: 'yellow_ochre',   zh: '土黄',    en: 'Yellow Ochre',   hex: '#C8922A' },
-  { id: 'vermillion',     zh: '朱红',    en: 'Vermillion',     hex: '#CE3020' },
-  { id: 'crimson',        zh: '玫瑰红',  en: 'Crimson',        hex: '#B82040' },
-  { id: 'ultramarine',    zh: '群青',    en: 'Ultramarine',    hex: '#2A3899' },
-  { id: 'prussian_blue',  zh: '普鲁士蓝',en: 'Prussian Blue',  hex: '#1A3A5C' },
-  { id: 'viridian',       zh: '翠绿',    en: 'Viridian',       hex: '#3A7A6A' },
-  { id: 'burnt_umber',    zh: '熟褐',    en: 'Burnt Umber',    hex: '#6B3A2A' },
+  { id: 'titanium_white', en: 'Titanium White', hex: '#F2EFE0' },
+  { id: 'ivory_black',    en: 'Ivory Black',    hex: '#2A2A28' },
+  { id: 'cadmium_yellow', en: 'Cadmium Yellow', hex: '#F0C020' },
+  { id: 'yellow_ochre',   en: 'Yellow Ochre',   hex: '#C8922A' },
+  { id: 'vermillion',     en: 'Vermillion',     hex: '#CE3020' },
+  { id: 'crimson',        en: 'Crimson',        hex: '#B82040' },
+  { id: 'ultramarine',    en: 'Ultramarine',    hex: '#2A3899' },
+  { id: 'prussian_blue',  en: 'Prussian Blue',  hex: '#1A3A5C' },
+  { id: 'viridian',       en: 'Viridian',       hex: '#3A7A6A' },
+  { id: 'burnt_umber',    en: 'Burnt Umber',    hex: '#6B3A2A' },
 ]
 
 // ── Color space conversions ────────────────────────────────────────────────

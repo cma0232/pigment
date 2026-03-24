@@ -86,8 +86,8 @@ export default function PaintingCanvas({ onColorPick, onImageLoad, onCanvasReady
               style={{ display: 'none' }}
             />
             <div className="upload-icon">🎨</div>
-            <p>拖入你的画，或者点击上传</p>
-            <span>JPG · PNG · WEBP &nbsp;（iPhone 请先导出为 JPEG）</span>
+            <p>Drag your painting here, or click to upload</p>
+            <span>JPG · PNG · WEBP &nbsp;(iPhone users: export as JPEG first)</span>
           </div>
           {error && <p className="upload-error">{error}</p>}
         </div>
